@@ -54,7 +54,7 @@ URL_ADMIN_USER_STORAGE = "admin/realms/{realm-name}/user-storage/{id}/sync"
 
 URL_ADMIN_SERVER_INFO = "admin/serverinfo"
 
-URL_ADMIN_GROUPS = "admin/realms/{realm-name}/groups"
+URL_ADMIN_GROUPS = "admin/realms/{realm-name}/groups?briefRepresentation=false"
 URL_ADMIN_GROUP = "admin/realms/{realm-name}/groups/{id}"
 URL_ADMIN_GROUP_CHILD = "admin/realms/{realm-name}/groups/{id}/children"
 URL_ADMIN_GROUP_PERMISSIONS = "admin/realms/{realm-name}/groups/{id}/management/permissions"
